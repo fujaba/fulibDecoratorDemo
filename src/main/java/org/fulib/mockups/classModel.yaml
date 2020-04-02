@@ -1,0 +1,7 @@
+- c1: 	ClassModel
+  defaultPropertyStyle: 	POJO
+  defaultRoleType: 	"java.util.ArrayList<%s>"
+  mainJavaDir: 	"src/main/java"
+  packageName: 	org.fulib.mockups
+  packageSrcFolder: 	"src/main/java/org/fulib/mockups"
+

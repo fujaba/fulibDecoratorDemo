@@ -1,0 +1,29 @@
+- c1: 	ClassModel
+  classes: 	scenarioTest2 	
+  defaultPropertyStyle: 	POJO
+  defaultRoleType: 	"java.util.ArrayList<%s>"
+  mainJavaDir: 	"src/test/java"
+  packageName: 	org.example
+  packageSrcFolder: 	"src/test/java/org/example"
+
+- scenarioTest2: 	Clazz
+  importList: 	null 	
+  methods: 	f3 	
+  model: 	c1
+  modified: 	false
+  name: 	ScenarioTest
+  propertyStyle: 	POJO
+
+- f3: 	FMethod
+  annotations: 	"@Test"
+  clazz: 	scenarioTest2
+  declaration: 	"@Test
+   public void myFirstScenario()"
+  methodBody: 	"      // start typing your scenario or select an example using the dropdown above.
+      Car herbie = new Car();
+      herbie.setName(\"Herbie\");
+      Driver alice = new Driver();
+      alice.setName(\"Alice\");
+"
+  modified: 	false
+

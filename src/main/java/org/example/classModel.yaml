@@ -1,0 +1,36 @@
+- c1: 	ClassModel
+  classes: 	car2 	driver3 	
+  defaultPropertyStyle: 	POJO
+  defaultRoleType: 	"java.util.ArrayList<%s>"
+  mainJavaDir: 	"src/main/java"
+  packageName: 	org.example
+  packageSrcFolder: 	"src/main/java/org/example"
+
+- car2: 	Clazz
+  attributes: 	name4 	
+  model: 	c1
+  modified: 	false
+  name: 	Car
+  propertyStyle: 	POJO
+
+- driver3: 	Clazz
+  attributes: 	name5 	
+  model: 	c1
+  modified: 	false
+  name: 	Driver
+  propertyStyle: 	POJO
+
+- name4: 	Attribute
+  clazz: 	car2
+  modified: 	false
+  name: 	name
+  propertyStyle: 	POJO
+  type: 	String
+
+- name5: 	Attribute
+  clazz: 	driver3
+  modified: 	false
+  name: 	name
+  propertyStyle: 	POJO
+  type: 	String
+

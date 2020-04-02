@@ -1,0 +1,14 @@
+- c1: 	ClassModel
+  classes: 	store2 	
+  defaultPropertyStyle: 	POJO
+  defaultRoleType: 	"java.util.ArrayList<%s>"
+  mainJavaDir: 	"src/main/java"
+  packageName: 	uniks.shopping
+  packageSrcFolder: 	"src/main/java/uniks/shopping"
+
+- store2: 	Clazz
+  model: 	c1
+  modified: 	false
+  name: 	Store
+  propertyStyle: 	POJO
+
