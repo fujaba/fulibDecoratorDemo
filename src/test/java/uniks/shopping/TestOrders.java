@@ -1,4 +1,4 @@
-package uniks.shopping;
+package org.uniks;
 
 import org.junit.Test;
 

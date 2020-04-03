@@ -1,8 +1,8 @@
-package org.example;
+package uniks.shopping;
 import java.beans.PropertyChangeSupport;
 import java.beans.PropertyChangeListener;
 
-public class Driver  
+public class Shop 
 {
 
    public static final String PROPERTY_name = "name";
@@ -14,7 +14,7 @@ public class Driver
       return name;
    }
 
-   public Driver setName(String value)
+   public Shop setName(String value)
    {
       if (value == null ? this.name != null : ! value.equals(this.name))
       {

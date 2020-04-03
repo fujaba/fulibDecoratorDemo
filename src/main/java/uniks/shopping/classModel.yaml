@@ -1,14 +1,28 @@
 - c1: 	ClassModel
-  classes: 	store2 	
+  classes: 	shop2 	store3 	
   defaultPropertyStyle: 	POJO
   defaultRoleType: 	"java.util.ArrayList<%s>"
   mainJavaDir: 	"src/main/java"
   packageName: 	uniks.shopping
   packageSrcFolder: 	"src/main/java/uniks/shopping"
 
-- store2: 	Clazz
+- shop2: 	Clazz
+  attributes: 	name4 	
+  model: 	c1
+  modified: 	false
+  name: 	Shop
+  propertyStyle: 	POJO
+
+- store3: 	Clazz
   model: 	c1
   modified: 	false
   name: 	Store
   propertyStyle: 	POJO
+
+- name4: 	Attribute
+  clazz: 	shop2
+  modified: 	false
+  name: 	name
+  propertyStyle: 	POJO
+  type: 	String
 

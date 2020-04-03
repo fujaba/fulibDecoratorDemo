@@ -1,0 +1,26 @@
+- c1: 	ClassModel
+  classes: 	shoppingScenarioTest2 	
+  defaultPropertyStyle: 	POJO
+  defaultRoleType: 	"java.util.ArrayList<%s>"
+  mainJavaDir: 	"src/test/java"
+  packageName: 	uniks.shopping
+  packageSrcFolder: 	"src/test/java/uniks/shopping"
+
+- shoppingScenarioTest2: 	Clazz
+  importList: 	null 	
+  methods: 	f3 	
+  model: 	c1
+  modified: 	false
+  name: 	ShoppingScenarioTest
+  propertyStyle: 	POJO
+
+- f3: 	FMethod
+  annotations: 	"@Test"
+  clazz: 	shoppingScenarioTest2
+  declaration: 	"@Test
+   public void someUniShopping()"
+  methodBody: 	"      Shop uniShop = new Shop();
+      uniShop.setName(\"UniShop\");
+"
+  modified: 	false
+
